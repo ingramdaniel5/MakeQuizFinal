@@ -4,6 +4,13 @@
 //CS 2401
 //10/8/2015
 //********************
+
+/**
+@file college.cc
+@author Matthew Aberegg
+@brief This file houses the source code for the college application
+**/
+
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
@@ -11,6 +18,14 @@
 #include<string>
 using namespace std;
 
+/**
+* Function name: College
+* @author  Matthew Aberegg(Documented by Daniel Ingram)
+* Function definition
+* @brief Is the creation method for the college object.
+* @param string: s, The name of the college
+* @return The new college object
+*/
 College::College(std::string s){
 	name = s;
 	head = NULL;
@@ -44,6 +59,15 @@ College::College(const College& other){
 	}
 }
 
+
+/**
+* Function name: College comparison operator
+* @author  Matthew Aberegg(Documented by Daniel Ingram)
+* Function definition
+* @brief Sets a passed college equal to the college the method is called on
+* @param The college
+* @return none returns the existing college
+*/
 College& College::operator =(const College& other){
 	if(this == &other){
 		return * this;
@@ -68,7 +92,14 @@ College& College::operator =(const College& other){
 	}
 	return * this;
 }
-
+/**
+* Function name:Add Course
+* @author  Matthew Aberegg(Documented by Daniel Ingram)
+* Function definition
+* @brief Is used to add a course to the colleges list
+* @param Course: c, The course being added
+* @return None, Modifies original object.
+*/
 void College::add(course& c){
 	node * previous;
 	node * cursor;

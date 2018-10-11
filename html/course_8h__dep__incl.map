@@ -1,0 +1,7 @@
+<map id="course.h" name="course.h">
+<area shape="rect" id="node2" href="$college_8h.html" title="This file contains the header information for the college object. " alt="" coords="29,155,103,181"/>
+<area shape="rect" id="node4" href="$collegemain_8cc.html" title="This is the main class of the program. " alt="" coords="111,229,221,256"/>
+<area shape="rect" id="node5" href="$node_8h.html" title="This file contains the object and header info for the node object. " alt="" coords="101,80,162,107"/>
+<area shape="rect" id="node6" href="$course_8cc.html" title="This file contains the source code which controls the course object. " alt="" coords="237,80,316,107"/>
+<area shape="rect" id="node3" href="$college_8cc.html" title="This file houses the source code for the college application. " alt="" coords="5,229,87,256"/>
+</map>

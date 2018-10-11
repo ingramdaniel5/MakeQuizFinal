@@ -7,6 +7,13 @@
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
 
+/**
+@file course.h
+@author Matthew Aberegg
+@brief This file contains the header info for the course object.
+**/
+
+
 #include<iostream>
 #include<string>
 #ifndef COURSE_H

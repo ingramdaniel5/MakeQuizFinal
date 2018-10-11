@@ -5,6 +5,14 @@
 //10/8/2015
 //********************
 
+/**
+@file college.h
+@author Matthew Aberegg
+@brief This file contains the header information for the college object.
+**/
+
+
+
 #include <iostream>
 #include <fstream>
 #include <string>

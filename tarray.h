@@ -7,6 +7,11 @@
 		Lab 7		Fall 2014
 	John Dolan			Ohio University 
 ********************************************************************/
+/**
+@file tarray.h
+@author Matthew Aberegg
+@brief This file contains the header info for the subclassed array object.
+**/
 
 #include<iostream>
 

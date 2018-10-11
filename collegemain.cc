@@ -12,6 +12,13 @@
 	John Dolan			Spring 2015
 **********************************************************/
 
+/**
+@file collegemain.cc
+@author Matthew Aberegg
+@brief This is the main class of the program
+**/
+
+
 #include <iostream>
 #include <fstream>
 #include <string>

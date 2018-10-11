@@ -3,6 +3,14 @@
 	course.
 		John Dolan		School of EECS		Summer2013
 **************************************************************************/
+
+/**
+@file course.cc
+@author Matthew Aberegg
+@brief This file contains the source code which controls the course object.
+**/
+
+
 #include "course.h"
 #include<cstdlib>
 #include<iostream>

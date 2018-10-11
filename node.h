@@ -5,6 +5,13 @@
                 John Dolan  		March 2009
 *************************************************************************/
 
+/**
+@file node.h
+@author Matthew Aberegg
+@brief This file contains the object and header info for the node object.
+**/
+
+
 #ifndef NODE_H
 #define NODE_H
 #include "course.h"
